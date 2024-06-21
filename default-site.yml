@@ -1,7 +1,6 @@
 ---
 site:
   title: ""
-  url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
 content:
@@ -14,7 +13,7 @@ ui:
     url: https://github.com/rhpds/showroom_theme_rhdp/releases/download/rhdp-v0.0.2/ui-bundle.zip
 
 runtime:
-  cache_dir: ./.cache/antora
+  cache_dir: ./.cache
 
 output:
   dir: ./www
